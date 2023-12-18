@@ -1,0 +1,78 @@
+.App {
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  background-image: url("https://img.freepik.com/premium-photo/blurred-background-blur-bookshelves-book-store-background-education-concept_7190-15.jpg");
+   /* filter: blur(8px); */
+   /* -webkit-filter: blur(8px); */
+
+
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: start;
+    justify-items: start;
+}
+
+h1{
+  text-align: center;
+  background-color: #FBFBFB;
+  margin: 0;
+}
+
+li{
+height: 112px;
+}
+a{
+  margin-top: 40px;
+}
+.add-book-form{
+  margin-top: 100px;
+}
+
+.css-12dv9jb {
+  
+  display: grid;
+    grid-template-columns: repeat(4,1fr);
+    width: 1255px;
+    gap:10px;
+}
+
+
+/* 
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
